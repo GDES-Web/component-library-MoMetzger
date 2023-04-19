@@ -1,0 +1,23 @@
+{
+  "name": "component-library-mometzger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.62.0"
+  },
+  "scripts": {
+    "dev": "sass --watch --update --style=expanded src/scss:src/css",
+    "build": "sass --no-source-map --style=compressed src/scss:src/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDES-Web/component-library-MoMetzger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GDES-Web/component-library-MoMetzger/issues"
+  },
+  "homepage": "https://github.com/GDES-Web/component-library-MoMetzger#readme",
+  "description": ""
+}
